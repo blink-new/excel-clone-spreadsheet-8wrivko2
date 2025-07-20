@@ -82,10 +82,8 @@ module.exports = {
   			}
   		},
   		fontFamily: {
-  			sans: [
-  				'Inter var',
-  				'sans-serif'
-  			]
+  			segoe: ['Segoe UI', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+  			sans: ['Segoe UI', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
   		},
   		animation: {
   			'fade-in': 'fade-in 0.5s ease-out',
@@ -137,4 +135,4 @@ module.exports = {
   	}
   },
   plugins: [require("tailwindcss-animate")],
-} 
+}
